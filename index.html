@@ -4,36 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="banner">
         <h1>Hassle</h1>
-        <img src="imgs/man-coffee.jpeg" alt="">
-        <p>Sign up today for 30% discount</p>
+        <p>Conneting humans</p>
+        <img src="imgs/people.jpg" alt="" >
     </div>
     <div class="forms">
         <h1>Get started</h1>
         <form action="" method="GET">
-            <div>
-                <label for="first-name">First name</label>
-                <input type="text" name="first-name" id="first-name">
-                <label for="last-name">Last name</label>
-                <input type="text" name="last-name" id="last-name">
-
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-                <label for="ph">Phone Number</label>
-                <input type="number" name="ph" id="ph">
-                
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password">
-                <label for="confirm-password">Confirm Password</label>
-                <input type="password" name="password" id="confirm-password">
-
-                <button type="submit">Create Account</button>
-                <p>Already have an account? <a href="#">Log in.</a></p>
+            <div class="field">
+                <div class="group">
+                    <div class="one inputs">
+                        <label for="firstname">First name</label>
+                        <input type="text" id="firstname" name="first-name">
+                    </div>
+                    <div class="two inputs">
+                        <label for="lastname">Last name</label>
+                        <input type="text" id="lastname" name="last-name">
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="three inputs">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="four inputs">
+                        <label for="Phone">Phone</label>
+                        <input type="text" id="phone" name="phone">
+                    </div>
+                </div>
+                <div class="group">
+                    <div class="five inputs">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="six inputs">
+                        <label for="conpassword">Confirm</label>
+                        <input type="password" id="conpassword">
+                    </div>
+                </div>
             </div>
-            
         </form>
     </div>
 </body>
