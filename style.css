@@ -9,14 +9,15 @@ body{
     align-items: center;
 }
 .banner img{
-    width: 40vw;
-    height: 100vh;
+    width: 500px;
+    height: 99vh;
     border-radius: 10px;
+    border-right: 1px solid black;
 }
 .banner h1{
-    font-size: 2.7rem;
+    font-size: 5rem;
     position: absolute;
-    margin-left: 47px;
+    margin-left: 6vw;
     margin-top: 18px;
     color: rgb(52, 51, 51);
     font-family: "Bebas Neue", sans-serif;
@@ -24,7 +25,7 @@ body{
     font-style: normal;
 }
 .banner p{
-    font-size: 1.3rem;
+    font-size: 2rem;
     position: absolute;
     margin-left: 20vh;
     margin-top: 90vh;
@@ -46,7 +47,7 @@ body{
 }
 .forms h1{
     margin-right:28vw;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .field{
@@ -59,14 +60,17 @@ body{
     display: flex;
     flex-direction: column; /* Change to column */
     margin-bottom: 10px; /* Add margin-bottom for spacing */
-    font-size: 0.7rem;
+    font-size: 1rem;
     gap: 8px;
 }
 .group{
     display: flex;
-    gap: 30px;
+    gap: 79px;
+    margin-top: 20px;
 }
 input{
     border: 0.6px solid black;
     border-radius: 3px;
+    height: 30px;
+    padding: 0 8px;
 }
